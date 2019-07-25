@@ -29,3 +29,7 @@ public class PlaySounds : MonoBehaviour
         soundEffects.PlayOneShot(sfxClip[clip]);
     }
 }
+
+
+
+PlaySounds.SFXInstance().PlaySound(0);
